@@ -1,10 +1,10 @@
 {
-  "name": "hello-codeschool-project",
+  "name": "hello-codeschool-project-nodejs",
   "version": "1.0.0",
   "description": "Sample Code School Project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/"
+    "test": "mocha test/"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,22 @@
     "chai": "^3.5.0",
     "jsdom": "^9.2.1",
     "mocha": "^2.5.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theinfringerofcalmness/hellocodeschoolproject.git"
+  },
+  "keywords": [
+    "codeschool",
+    "projects",
+    "building"
+  ],
+  "bugs": {
+    "url": "https://github.com/theinfringerofcalmness/hellocodeschoolproject/issues"
+  },
+  "homepage": "https://github.com/theinfringerofcalmness/hellocodeschoolproject#readme"
 }
